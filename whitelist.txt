@@ -1,0 +1,43 @@
+# Blender Niftools Addon - License Whitelist
+# ============================================
+#
+# This file contains SHA256 hashes of authorized MAC addresses.
+# Add one hash per line. Lines starting with # are comments.
+#
+# How to add a new license:
+# 1. Customer runs the addon and gets their machine ID from the error message
+# 2. Add their hash below with a comment describing who it is
+# 3. Commit this file to GitHub
+# 4. Customer restarts Blender - license check will pass
+#
+# Format: HASH  # Description
+# Example: abc123def456...  # John Doe - Purchased 2025-01-15
+
+# ============================================
+# YOUR DEVELOPMENT MACHINES
+# ============================================
+
+# Add your own machine hash here for testing
+# Run: python get_machine_id.py
+
+# ============================================
+# CUSTOMER LICENSES
+# ============================================
+
+# Customer 1
+# abc123def456789...  # John Doe - Purchased 2025-01-15 - Annual License
+
+# Customer 2
+# 789xyz456uvw123...  # Jane Smith - Purchased 2025-01-20 - Lifetime License
+
+# Customer 3 (Trial - expires 2025-06-30)
+# 456uvw789xyz123...  # Bob Johnson - Trial License
+
+# ============================================
+# REVOKED LICENSES
+# ============================================
+# Move revoked licenses here (comment them out)
+
+# REVOKED: 111aaa222bbb...  # Refunded customer - 2025-01-25
+
+c38787d2bf5e29552a5fca04c81fdcc125fd967f01ddcd88e45144ea42e0f337  # Patipan (Your Dev Machine)
